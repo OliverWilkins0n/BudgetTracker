@@ -1,0 +1,15 @@
+C:\Users\olive\Desktop\cSharp\BudgetTracker\bin\Debug\net6.0\BudgetTracker.exe
+C:\Users\olive\Desktop\cSharp\BudgetTracker\bin\Debug\net6.0\BudgetTracker.deps.json
+C:\Users\olive\Desktop\cSharp\BudgetTracker\bin\Debug\net6.0\BudgetTracker.runtimeconfig.json
+C:\Users\olive\Desktop\cSharp\BudgetTracker\bin\Debug\net6.0\BudgetTracker.dll
+C:\Users\olive\Desktop\cSharp\BudgetTracker\bin\Debug\net6.0\BudgetTracker.pdb
+C:\Users\olive\Desktop\cSharp\BudgetTracker\obj\Debug\net6.0\BudgetTracker.csproj.AssemblyReference.cache
+C:\Users\olive\Desktop\cSharp\BudgetTracker\obj\Debug\net6.0\BudgetTracker.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\olive\Desktop\cSharp\BudgetTracker\obj\Debug\net6.0\BudgetTracker.AssemblyInfoInputs.cache
+C:\Users\olive\Desktop\cSharp\BudgetTracker\obj\Debug\net6.0\BudgetTracker.AssemblyInfo.cs
+C:\Users\olive\Desktop\cSharp\BudgetTracker\obj\Debug\net6.0\BudgetTracker.csproj.CoreCompileInputs.cache
+C:\Users\olive\Desktop\cSharp\BudgetTracker\obj\Debug\net6.0\BudgetTracker.dll
+C:\Users\olive\Desktop\cSharp\BudgetTracker\obj\Debug\net6.0\refint\BudgetTracker.dll
+C:\Users\olive\Desktop\cSharp\BudgetTracker\obj\Debug\net6.0\BudgetTracker.pdb
+C:\Users\olive\Desktop\cSharp\BudgetTracker\obj\Debug\net6.0\BudgetTracker.genruntimeconfig.cache
+C:\Users\olive\Desktop\cSharp\BudgetTracker\obj\Debug\net6.0\ref\BudgetTracker.dll
