@@ -9,32 +9,36 @@ namespace BudgetTracker
     class User
     {
         public int ID { get; set; }
-        private string UserName { get; set; }
+        private string Username { get; set; }
         private string Password;
+        private Purchase purchases;
         private float Budget;
 
         
-        public User(string UserName, string Password) { 
+        public User(string Username, string Password) { 
             Random rnd = new Random();
             int userID  = rnd.Next(100000, 999999);
             this.ID = userID;
-            this.UserName = UserName;
+            this.Username = Username;
             this.Password = Password;
         }
 
-        public string getUsername(string username)
+        public string getUsername()
         {
-            return username;
+            return Username;
         }
         public void setPassword(string NewPassword)
         {   
             Password = NewPassword;
         }
 
+        public string getPassword() { return Password; }
+
         public override string ToString()
         {
-            return "ID: " + ID + " Username: " + UserName;
+            return "ID: " + ID + " Username: " + Username;
         }
+
     }
 
 }

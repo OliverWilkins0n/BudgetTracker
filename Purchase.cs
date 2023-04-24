@@ -8,10 +8,10 @@ namespace BudgetTracker
 {
     class Purchase
     {
-        public int ID { get; set; };
-        public string ItemName { get; set; };
-        public float Price { get; set; };
-        public DateTime PurchaseDate { get; set; };
+        public int ID { get; set; }
+        public string ItemName { get; set; }
+        public float Price { get; set; }
+        public DateTime PurchaseDate { get; set; }
 
         public Purchase(string itemName, float price, DateTime purchaseDate) {
             Random rnd = new Random();

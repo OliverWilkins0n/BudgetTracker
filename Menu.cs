@@ -37,20 +37,20 @@ namespace BudgetTracker
                     }
             }
         }
-        public Tuple<string, string> CreateAccountMenu()
+        public Tuple<string, string> AccountMenu()
         {
-            string UserName;
+            string Username;
             string Password;
             do
             {
                 try
                 {
-                    Console.Write("Enter Username: ");
-                    UserName = Console.ReadLine().Trim();
-                    Console.Write("Enter Password: ");
+                    Console.WriteLine("Enter Username: ");
+                    Username = Console.ReadLine().Trim();
+                    Console.WriteLine("Enter Password: ");
                     Password = Console.ReadLine().Trim();
 
-                    if (string.IsNullOrEmpty(UserName) || string.IsNullOrEmpty(Password))
+                    if (string.IsNullOrEmpty(Username) || string.IsNullOrEmpty(Password))
                     {
                         Console.WriteLine("Username and password cannot be empty. Please try again.");
                     }
@@ -58,11 +58,11 @@ namespace BudgetTracker
                 catch (IOException ex)
                 {
                     Console.WriteLine($"An error occurred while reading the input: {ex.Message}");
-                    UserName = null;
+                    Username = null;
                     Password = null;
                 }
-            } while (string.IsNullOrEmpty(UserName) || string.IsNullOrEmpty(Password));
-            return Tuple.Create(UserName, Password);
+            } while (string.IsNullOrEmpty(Username) || string.IsNullOrEmpty(Password));
+            return Tuple.Create(Username, Password);
         }
 
 
